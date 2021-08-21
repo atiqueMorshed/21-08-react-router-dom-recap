@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  margin-top: 20px;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  font-size: 18px;
+  color: black;
+  padding: 20px 50px;
+  border-bottom: 1px solid black;
+  /* width: 100px; */
+  text-decoration: none;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid #929292;
+  color: #3e3e3e;
+}
